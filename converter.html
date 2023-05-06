@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter MP4 to MP3</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+<strong>MP4 to MP3 Converter</strong>
+<form action="" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <input type="file" name="file" accept=".mp4">
+      <button type="submit">Convert to MP3</button>
+    </form>
+<p>THIS THE ONLINE WEBAPP WHERE YOU CAN CONVERT THE MP4 FILE TO MP3 FILE DIRECTLY.<BR> I HOPE YOU LIKE IT</p>
+</body>
+</html>
